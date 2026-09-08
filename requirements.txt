@@ -1,0 +1,6 @@
+# Runtime dependencies for the AI AppSec demo.
+#
+# The application itself uses only the Python standard library (sqlite3), so the
+# only runtime dependency is the Gemini SDK used by the AI agent scripts.
+# (Swapped from Anthropic -> Gemini to run on Google AI Studio's free tier.)
+google-genai>=0.5.0
